@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      name: micro-eureka-servera #配置文件名称，多个通过逗号分隔
+      uri: http://127.0.0.1:8000 #Config Server服务地址
